@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: #54595F;
+    color: #bbbbbb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.links:not(.copyright){
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    /* background-color: red; */
+}
+
+.links .col{
+    /* background-color: black; */
+    margin: 20px;
+    padding: 20px;
+}
+
+.links h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    /* background-color: #61CE70; */
+    border-bottom: 1px solid #61CE70;
+}
+
+.links ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    list-style-type: square;
+    margin-bottom: 10px;
+    /* list-style: url(../../assets/check_box_outline_blank_FILL0_wght400_GRAD0_opsz24.svg); */
+}
+
+.copyright{
+    font-family: 'Nova Square', sans-serif;
+    width: 90%;
+    height: 75px;
+    padding: 25px 10px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* background-color: red; */
+}
+
